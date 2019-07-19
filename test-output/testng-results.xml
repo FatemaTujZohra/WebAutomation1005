@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[<div "featureFile">Feature File: Features&#x2F;GoogleFooterVerification2.feature</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "feature">Feature: Google Footer list Checkup</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Given  I go to Google Home page (passed : 3s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "scenario">Scenario: Selecting different footer links and checking the corresponding page</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">When  I see google home page (passed : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Then  I verified the Google footer list text (passed : 4s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "featureFile">Feature File: Features&#x2F;MercuryTours.feature</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "feature">Feature: Mercury Tours Registration</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "scenario">Scenario: Verification of user&#x27;s Registration</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Given  User goes to http:&#x2F;&#x2F;newtours.demoaut.com (passed : 1s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">When  User click on the Register link on top (passed : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">And  User fills up the registration details (passed : 4s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">And  User clicks on submit button (passed : 1s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Then  User verifies the registration is complete (passed : 2s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "featureFile">Feature File: Features&#x2F;toolsqatable.feature</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "feature">Feature: Data Table immplementation</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Given  I go to ToolsQA page (passed : 7s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "scenario">Scenario: Checking the default coloumn</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">When  I see ToolsQA webtable page (passed : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Then  I verified the ToolsQA table default (passed : 9s)</div>]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="46901" started-at="2019-07-19T02:53:01Z" finished-at="2019-07-19T02:53:48Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.run_cukes()[pri:0, instance:runner_cukes.TestRunner@5e5792a0]" name="run_cukes" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Default test" duration-ms="46901" started-at="2019-07-19T02:53:01Z" finished-at="2019-07-19T02:53:48Z">
+      <class name="runner_cukes.TestRunner">
+        <test-method status="PASS" signature="run_cukes()[pri:0, instance:runner_cukes.TestRunner@5e5792a0]" name="run_cukes" duration-ms="46887" started-at="2019-07-18T22:53:01Z" description="Runs Cucumber Features" finished-at="2019-07-18T22:53:48Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<div "featureFile">Feature File: Features&#x2F;GoogleFooterVerification2.feature</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "feature">Feature: Google Footer list Checkup</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Given  I go to Google Home page (passed : 3s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "scenario">Scenario: Selecting different footer links and checking the corresponding page</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">When  I see google home page (passed : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Then  I verified the Google footer list text (passed : 4s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "featureFile">Feature File: Features&#x2F;MercuryTours.feature</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "feature">Feature: Mercury Tours Registration</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "scenario">Scenario: Verification of user&#x27;s Registration</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Given  User goes to http:&#x2F;&#x2F;newtours.demoaut.com (passed : 1s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">When  User click on the Register link on top (passed : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">And  User fills up the registration details (passed : 4s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">And  User clicks on submit button (passed : 1s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Then  User verifies the registration is complete (passed : 2s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "featureFile">Feature File: Features&#x2F;toolsqatable.feature</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "feature">Feature: Data Table immplementation</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Given  I go to ToolsQA page (passed : 7s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "scenario">Scenario: Checking the default coloumn</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">When  I see ToolsQA webtable page (passed : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Then  I verified the ToolsQA table default (passed : 9s)</div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- run_cukes -->
+      </class> <!-- runner_cukes.TestRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,110 @@
+<html>
+<head>
+<title>TestNG:  Default test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Default test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>1/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Jul 18 22:53:01 EDT 2019</td>
+</tr>
+<tr><td>Total time:</td><td>46 seconds (46901 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='runner_cukes.TestRunner.run_cukes()'><b>run_cukes</b><br>Test class: runner_cukes.TestRunner<br>Test method: Runs Cucumber Features<br/>
+<a href="#Output-252553541" onClick='toggleBox("Output-252553541", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-252553541" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-252553541">
+<div "featureFile">Feature File: Features&#x2F;GoogleFooterVerification2.feature</div><br/>
+<div "feature">Feature: Google Footer list Checkup</div><br/>
+<div "result">Given  I go to Google Home page (passed : 3s)</div><br/>
+<div "scenario">Scenario: Selecting different footer links and checking the corresponding page</div><br/>
+<div "result">When  I see google home page (passed : 0s)</div><br/>
+<div "result">Then  I verified the Google footer list text (passed : 4s)</div><br/>
+<div "featureFile">Feature File: Features&#x2F;MercuryTours.feature</div><br/>
+<div "feature">Feature: Mercury Tours Registration</div><br/>
+<div "scenario">Scenario: Verification of user&#x27;s Registration</div><br/>
+<div "result">Given  User goes to http:&#x2F;&#x2F;newtours.demoaut.com (passed : 1s)</div><br/>
+<div "result">When  User click on the Register link on top (passed : 0s)</div><br/>
+<div "result">And  User fills up the registration details (passed : 4s)</div><br/>
+<div "result">And  User clicks on submit button (passed : 1s)</div><br/>
+<div "result">Then  User verifies the registration is complete (passed : 2s)</div><br/>
+<div "featureFile">Feature File: Features&#x2F;toolsqatable.feature</div><br/>
+<div "feature">Feature: Data Table immplementation</div><br/>
+<div "result">Given  I go to ToolsQA page (passed : 7s)</div><br/>
+<div "scenario">Scenario: Checking the default coloumn</div><br/>
+<div "result">When  I see ToolsQA webtable page (passed : 0s)</div><br/>
+<div "result">Then  I verified the ToolsQA table default (passed : 9s)</div><br/>
+</div>
+</td>
+<td></td>
+<td>46</td>
+<td>runner_cukes.TestRunner@5e5792a0</td></tr>
+</table><p>
+</body>
+</html>
