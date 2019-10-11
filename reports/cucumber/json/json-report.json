@@ -1,0 +1,418 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3073844626,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I go to Google Home page",
+            "match": {
+              "location": "GoogleFooterLinkTest.i_go_to_Google_Home_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2986740909,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SetDriver.beforeTest()"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "Selecting different footer links and checking the corresponding page",
+        "description": "",
+        "id": "google-footer-list-checkup;selecting-different-footer-links-and-checking-the-corresponding-page",
+        "after": [
+          {
+            "result": {
+              "duration": 863075078,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SetDriver.afterTest()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 53245,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I see google home page",
+            "match": {
+              "location": "GoogleFooterVerification.i_see_google_home_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4116794038,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I verified the Google footer list text",
+            "match": {
+              "location": "GoogleFooterVerification.i_verified_the_Google_footer_list_text(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Privacy"
+                ],
+                "line": 11
+              },
+              {
+                "cells": [
+                  "Terms"
+                ],
+                "line": 12
+              },
+              {
+                "cells": [
+                  "Settings"
+                ],
+                "line": 13
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 6,
+            "name": "@Runme"
+          }
+        ]
+      }
+    ],
+    "name": "Google Footer list Checkup",
+    "description": "",
+    "id": "google-footer-list-checkup",
+    "keyword": "Feature",
+    "uri": "Features/GoogleFooterVerification2.feature"
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "comments": [
+          {
+            "line": 3,
+            "value": "#@Runme"
+          }
+        ],
+        "before": [
+          {
+            "result": {
+              "duration": 2272709129,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SetDriver.beforeTest()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Verification of user\u0027s Registration",
+        "description": "",
+        "id": "mercury-tours-registration;verification-of-user\u0027s-registration",
+        "after": [
+          {
+            "result": {
+              "duration": 817104798,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SetDriver.afterTest()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1236790539,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User goes to http://newtours.demoaut.com",
+            "match": {
+              "location": "MercuryTours.user_goes_to_http_newtours_demoaut_com()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 384597563,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User click on the Register link on top",
+            "match": {
+              "location": "MercuryTours.user_click_on_the_Register_link_on_top()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3918112895,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User fills up the registration details",
+            "match": {
+              "location": "MercuryTours.user_fills_up_the_registration_details(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "First Name",
+                  "sling"
+                ],
+                "line": 9
+              },
+              {
+                "cells": [
+                  "Last Name",
+                  "CHO"
+                ],
+                "line": 10
+              },
+              {
+                "cells": [
+                  "Phone",
+                  "5960122345"
+                ],
+                "line": 11
+              },
+              {
+                "cells": [
+                  "Email",
+                  "abc123@gmail.com"
+                ],
+                "line": 12
+              },
+              {
+                "cells": [
+                  "Address",
+                  "123 Hadson Rd"
+                ],
+                "line": 13
+              },
+              {
+                "cells": [
+                  "City",
+                  "Saltlake"
+                ],
+                "line": 14
+              },
+              {
+                "cells": [
+                  "State/Province",
+                  "UT"
+                ],
+                "line": 15
+              },
+              {
+                "cells": [
+                  "Postal Code",
+                  "22304-2015"
+                ],
+                "line": 16
+              },
+              {
+                "cells": [
+                  "Country",
+                  "USA"
+                ],
+                "line": 17
+              },
+              {
+                "cells": [
+                  "User Name",
+                  "abc123@gmail.com"
+                ],
+                "line": 18
+              },
+              {
+                "cells": [
+                  "Password",
+                  "demo123"
+                ],
+                "line": 19
+              },
+              {
+                "cells": [
+                  "Confirm Password",
+                  "demo123"
+                ],
+                "line": 20
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2675383938,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User clicks on submit button",
+            "match": {
+              "location": "MercuryTours.user_clicks_on_submit_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2014191409,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User verifies the registration is complete",
+            "match": {
+              "location": "MercuryTours.user_verifies_the_registration_is_complete()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Mercury Tours Registration",
+    "description": "",
+    "id": "mercury-tours-registration",
+    "keyword": "Feature",
+    "uri": "Features/MercuryTours.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@Runme"
+      }
+    ]
+  },
+  {
+    "line": 3,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4449735379,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I go to ToolsQA page",
+            "match": {
+              "location": "ToolsQA_Table.i_go_to_ToolsQA_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2251434004,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SetDriver.beforeTest()"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "Checking the default coloumn",
+        "description": "",
+        "id": "data-table-immplementation;checking-the-default-coloumn",
+        "after": [
+          {
+            "result": {
+              "duration": 1688495988,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SetDriver.afterTest()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 33851,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I see ToolsQA webtable page",
+            "match": {
+              "location": "ToolsQA_Table.i_see_ToolsQA_webtable_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 8220200632,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I verified the ToolsQA table default",
+            "match": {
+              "location": "ToolsQA_Table.i_verified_the_ToolsQA_table_default(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Automation Tool",
+                  "Licensing",
+                  "Market response"
+                ],
+                "line": 10
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 6,
+            "name": "@Runme"
+          }
+        ]
+      }
+    ],
+    "name": "Data Table immplementation",
+    "description": "",
+    "id": "data-table-immplementation",
+    "keyword": "Feature",
+    "uri": "Features/toolsqatable.feature"
+  }
+]

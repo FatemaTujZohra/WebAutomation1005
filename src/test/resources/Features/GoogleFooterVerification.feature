@@ -10,4 +10,4 @@ Feature: Google Footer list Checkup
       | footers  |
       | Privacy  |
       | Terms    |
-      | Settings |
+      

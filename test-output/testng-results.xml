@@ -8,7 +8,7 @@
       <![CDATA[<div "feature">Feature: Google Footer list Checkup</div>]]>
     </line>
     <line>
-      <![CDATA[<div "result">Given  I go to Google Home page (passed : 2s)</div>]]>
+      <![CDATA[<div "result">Given  I go to Google Home page (passed : 3s)</div>]]>
     </line>
     <line>
       <![CDATA[<div "scenario">Scenario: Selecting different footer links and checking the corresponding page</div>]]>
@@ -59,18 +59,18 @@
       <![CDATA[<div "result">When  I see ToolsQA webtable page (passed : 0s)</div>]]>
     </line>
     <line>
-      <![CDATA[<div "result">Then  I verified the ToolsQA table default (passed : 8s)</div>]]>
+      <![CDATA[<div "result">Then  I verified the ToolsQA table default (passed : 10s)</div>]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="42767" started-at="2019-07-19T03:23:58Z" finished-at="2019-07-19T03:24:41Z">
+  <suite name="Default suite" duration-ms="46138" started-at="2019-07-19T03:52:18Z" finished-at="2019-07-19T03:53:04Z">
     <groups>
       <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.run_cukes()[pri:0, instance:runner_cukes.TestRunner@71318ec4]" name="run_cukes" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.run_cukes()[pri:0, instance:runner_cukes.TestRunner@21213b92]" name="run_cukes" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test name="Default test" duration-ms="42767" started-at="2019-07-19T03:23:58Z" finished-at="2019-07-19T03:24:41Z">
+    <test name="Default test" duration-ms="46138" started-at="2019-07-19T03:52:18Z" finished-at="2019-07-19T03:53:04Z">
       <class name="runner_cukes.TestRunner">
-        <test-method status="PASS" signature="run_cukes()[pri:0, instance:runner_cukes.TestRunner@71318ec4]" name="run_cukes" duration-ms="42719" started-at="2019-07-18T23:23:59Z" description="Runs Cucumber Features" finished-at="2019-07-18T23:24:41Z">
+        <test-method status="PASS" signature="run_cukes()[pri:0, instance:runner_cukes.TestRunner@21213b92]" name="run_cukes" duration-ms="46095" started-at="2019-07-18T23:52:18Z" description="Runs Cucumber Features" finished-at="2019-07-18T23:53:04Z">
           <reporter-output>
             <line>
               <![CDATA[<div "featureFile">Feature File: Features&#x2F;GoogleFooterVerification2.feature</div>]]>
@@ -79,7 +79,7 @@
               <![CDATA[<div "feature">Feature: Google Footer list Checkup</div>]]>
             </line>
             <line>
-              <![CDATA[<div "result">Given  I go to Google Home page (passed : 2s)</div>]]>
+              <![CDATA[<div "result">Given  I go to Google Home page (passed : 3s)</div>]]>
             </line>
             <line>
               <![CDATA[<div "scenario">Scenario: Selecting different footer links and checking the corresponding page</div>]]>
@@ -130,7 +130,7 @@
               <![CDATA[<div "result">When  I see ToolsQA webtable page (passed : 0s)</div>]]>
             </line>
             <line>
-              <![CDATA[<div "result">Then  I verified the ToolsQA table default (passed : 8s)</div>]]>
+              <![CDATA[<div "result">Then  I verified the ToolsQA table default (passed : 10s)</div>]]>
             </line>
           </reporter-output>
         </test-method> <!-- run_cukes -->
